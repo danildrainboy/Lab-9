@@ -28,10 +28,6 @@ strategy:
     jdk_version: "1.11"
  maxParallel: 2
 
-trigger:
- - master
- - releases/*
-
 pr:
  - master
  - releases/*
